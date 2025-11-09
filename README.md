@@ -1,3 +1,3 @@
-# Josiah_theory
+# Josiah_theory_us
 
-dictionaries for my theory free for download!
+Adapted to American English
