@@ -260,7 +260,7 @@ def _try_rh_append(stroke: str) -> str | None:
             # parent should still carry * for *T / *PL cases where * is the ender mark
             # Cheatsheet: TPH*T ← TPH with *T meaning "the"; strip *T → TPH
             pp = _parse(parent)
-            if pp and cluster in ("T", "PL", "FPL", "BLS", "RBG"):
+            if pp and cluster in ("T", "PL", "FPL", "FR", "BLS", "RBG"):
                 # strip star from parent for lookup of bare left
                 bare = dict(pp)
                 bare["star"] = ""
